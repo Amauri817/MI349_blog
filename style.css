@@ -39,7 +39,10 @@ p {
 img {
     width: 45%;
 }
-    
+
+.List li {
+    padding: 5px;
+}
 
 @media (max-width: 400px) {
     #blog {
