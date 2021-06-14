@@ -19,11 +19,32 @@ p {
     line-height: 1.3em;
 }
 
+#blog {
+    border-top: 1px solid black;
+}
+
 .blog-post2 {
     border-bottom: 1px dotted black;
 }
 
 .blog-post1 {
-    border-top: 1px dotted gray;
     border-bottom: 1px dotted black;
+}
+
+#Help{
+    display: flex;
+    margin: 0;
+}
+
+.Info {
+    margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+    #blog {
+        background: blue;
+    }
+    #Bio {
+        background: purple;
+    }
 }
