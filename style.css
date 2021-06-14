@@ -36,9 +36,10 @@ p {
     margin: 0;
 }
 
-.Info {
-    margin-top: 10px;
+img {
+    width: 45%;
 }
+    
 
 @media (max-width: 400px) {
     #blog {
@@ -46,5 +47,8 @@ p {
     }
     #Bio {
         background: purple;
+    }
+    #Help {
+        background: orange;
     }
 }
