@@ -6,22 +6,24 @@ body {
     background-color: #e3e3e3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 30px;
+    padding: 30px;
     border-top: 10px solid #242424;
     color: #242424;
 }
 
 h1 {
-
+    margin: 0px;
 }
 
 p {
-
+    line-height: 1.3em;
 }
 
-#blog {
-
+.blog-post2 {
+    border-bottom: 1px dotted black;
 }
 
-.blog-post {
-
+.blog-post1 {
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted black;
 }
